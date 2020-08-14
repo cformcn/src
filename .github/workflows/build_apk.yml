@@ -1,4 +1,4 @@
-# Build APKs for Kiwi Browser build apk
+# Build APKs for Kiwi Browser
 name: automatic build of apk
 
 # Controls when the action will run. Triggers the workflow on push or pull request events
@@ -6,11 +6,11 @@ on:
   push:
     paths-ignore:
       - '*.md'
-    branches: [ buildapk ]
+    branches: [ master ]
   pull_request:
     paths-ignore:
       - '*.md'
-    branches: [ buildapk ]
+    branches: [ master ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
