@@ -6,11 +6,11 @@ on:
   push:
     paths-ignore:
       - '*.md'
-    branches: [ master ]
+    branches: [ buildapk ]
   pull_request:
     paths-ignore:
       - '*.md'
-    branches: [ master ]
+    branches: [ buildapk ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
